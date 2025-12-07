@@ -206,18 +206,6 @@ python eval/run_experiments.py --quick
 - **E4**: ISM accuracy vs parameter change magnitude
 - **E5**: Online learning convergence
 
-## Citation
-
-If you use TwinDB in your research, please cite:
-
-```bibtex
-@inproceedings{twindb2025,
-  title={TwinDB: Incremental Scenario Maintenance for Digital Twin Queries},
-  author={Anonymous},
-  booktitle={Proceedings of the International Conference on Management of Data},
-  year={2025}
-}
-```
 
 ## License
 

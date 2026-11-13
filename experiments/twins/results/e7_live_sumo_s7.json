@@ -1,0 +1,23 @@
+{
+ "engine": "sumo",
+ "session": 7,
+ "n": 30,
+ "fullsim_wall_s": 238.2794010639991,
+ "fullsim_engine_s": 238.26221837999583,
+ "warm_anchors": 350,
+ "twindb_wall_s": 56.431080899001245,
+ "audit_engine_s": 53.302963209000154,
+ "twindb_latency_s": 50.73895227799949,
+ "twindb_engine_s": 47.56631489099891,
+ "plans": {
+  "hit": 0,
+  "ism": 26,
+  "sim": 4
+ },
+ "audits": 5,
+ "mean_rel_err": 0.008007075908516997,
+ "viol": 0.038461538461538464,
+ "speedup_latency": 4.696182919948025,
+ "speedup_total": 4.222485149459831,
+ "replay_latency_s": 50.7330800070049
+}

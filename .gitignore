@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Frontend
+node_modules/
+web/node_modules/
+web/dist/
+
+# IDE / local agent state
+.idea/
+.vscode/
+.cursor/
+.agent/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+API_Keys.txt
+*.key
+*.pem
+secrets/
+
+# Local notes and scratch output
+brainstorms.md
+ReviewComments.txt
+prompt.md
+:memory:
+*.log
+x.log
+main.log
+
+# Project-specific exclusions
+paper/
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+
+# Data files (large) - excluded from repo by default
+data/
+!data/sample_*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Experiments: exclude raw meter data and full per-run traces
+experiments/inputs/aalborg/01_Data/
+experiments/aalborg/gt_aal/*.npy
+experiments/aalborg/gt_cal/*.npy

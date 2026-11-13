@@ -1,0 +1,23 @@
+{
+ "engine": "epanet",
+ "session": 7,
+ "n": 30,
+ "fullsim_wall_s": 209.08390877700003,
+ "fullsim_engine_s": 209.05630737299361,
+ "warm_anchors": 285,
+ "twindb_wall_s": 34.48142097299933,
+ "audit_engine_s": 33.33422081199933,
+ "twindb_latency_s": 1.1659401890028676,
+ "twindb_engine_s": 0,
+ "plans": {
+  "hit": 0,
+  "ism": 30,
+  "sim": 0
+ },
+ "audits": 5,
+ "mean_rel_err": 0.0017578544946336369,
+ "viol": 0.0,
+ "speedup_latency": 179.3264446573475,
+ "speedup_total": 6.063668575048665,
+ "replay_latency_s": 1.1642594849963643
+}

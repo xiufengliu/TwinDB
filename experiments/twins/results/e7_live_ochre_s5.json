@@ -1,0 +1,23 @@
+{
+ "engine": "ochre",
+ "session": 5,
+ "n": 30,
+ "fullsim_wall_s": 683.8075456089991,
+ "fullsim_engine_s": 683.7745533360012,
+ "warm_anchors": 250,
+ "twindb_wall_s": 188.42788158300027,
+ "audit_engine_s": 165.15776625799845,
+ "twindb_latency_s": 184.59180193199973,
+ "twindb_engine_s": 181.65944186600063,
+ "plans": {
+  "hit": 0,
+  "ism": 24,
+  "sim": 6
+ },
+ "audits": 5,
+ "mean_rel_err": 0.004245038200450791,
+ "viol": 0.0,
+ "speedup_latency": 3.7044307409757096,
+ "speedup_total": 3.6290146652622104,
+ "replay_latency_s": 184.58102924200102
+}

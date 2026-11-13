@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  timescaledb:
+    image: timescale/timescaledb:latest-pg15
+    container_name: twindb-timescale
+    environment:
+      POSTGRES_USER: twindb
+      POSTGRES_PASSWORD: twindb123
+      POSTGRES_DB: twindb
+    ports:
+      - "5432:5432"
+    volumes:
+      - twindb_data:/var/lib/postgresql/data
+      - ./core/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U twindb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  twindb_data:

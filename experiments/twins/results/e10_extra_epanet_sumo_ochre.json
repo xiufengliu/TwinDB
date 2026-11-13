@@ -1,0 +1,182 @@
+{
+ "epanet": {
+  "prefetch_tau10": {
+   "fullsim_prefetch_speedup": 10.327659398138367,
+   "twindb_prefetch_speedup": 3896.6250444078933
+  },
+  "prefetch_tau30": {
+   "fullsim_prefetch_speedup": 2761527256965.637,
+   "twindb_prefetch_speedup": 4850.116331693851
+  },
+  "prefetch_tau60": {
+   "fullsim_prefetch_speedup": 2761527256965.637,
+   "twindb_prefetch_speedup": 4850.116331693851
+  },
+  "bootstrap": {
+   "speedup_ci": [
+    4.109273120391702,
+    320.5962007141313
+   ],
+   "viol_ci": [
+    0.0,
+    0.01736440111758989
+   ]
+  },
+  "injected": {
+   "rho=0": {
+    "accepted_after": 167.0,
+    "violations_after": 167.0,
+    "viol_rate_after": 1.0,
+    "accepted_before_stop": 167.0,
+    "stopped": 0.0,
+    "certificate_end": 1.0
+   },
+   "rho=0.05": {
+    "accepted_after": 56.0,
+    "violations_after": 56.0,
+    "viol_rate_after": 1.0,
+    "accepted_before_stop": 56.0,
+    "stopped": 1.0,
+    "certificate_end": 1.0
+   },
+   "rho=0.1": {
+    "accepted_after": 35.0,
+    "violations_after": 35.0,
+    "viol_rate_after": 1.0,
+    "accepted_before_stop": 35.0,
+    "stopped": 1.0,
+    "certificate_end": 0.9265021358521693
+   },
+   "rho=0.2": {
+    "accepted_after": 15.6,
+    "violations_after": 15.6,
+    "viol_rate_after": 1.0,
+    "accepted_before_stop": 15.6,
+    "stopped": 1.0,
+    "certificate_end": 0.5143649930551721
+   }
+  },
+  "n_queries": 334,
+  "n_after": 167
+ },
+ "sumo": {
+  "prefetch_tau10": {
+   "fullsim_prefetch_speedup": 3.8146439784112363,
+   "twindb_prefetch_speedup": 10.475269492487755
+  },
+  "prefetch_tau30": {
+   "fullsim_prefetch_speedup": 4938430629968.643,
+   "twindb_prefetch_speedup": 1501.9398667397963
+  },
+  "prefetch_tau60": {
+   "fullsim_prefetch_speedup": 4938430629968.643,
+   "twindb_prefetch_speedup": 1501.9398667397963
+  },
+  "bootstrap": {
+   "speedup_ci": [
+    1.4401227789486037,
+    6.298992426908892
+   ],
+   "viol_ci": [
+    0.0,
+    0.12813137101152058
+   ]
+  },
+  "injected": {
+   "rho=0": {
+    "accepted_after": 21.0,
+    "violations_after": 21.0,
+    "viol_rate_after": 1.0,
+    "accepted_before_stop": 21.0,
+    "stopped": 1.0,
+    "certificate_end": 1.0
+   },
+   "rho=0.05": {
+    "accepted_after": 20.6,
+    "violations_after": 17.0,
+    "viol_rate_after": 0.8723590585659551,
+    "accepted_before_stop": 20.6,
+    "stopped": 1.0,
+    "certificate_end": 1.0
+   },
+   "rho=0.1": {
+    "accepted_after": 11.8,
+    "violations_after": 10.6,
+    "viol_rate_after": 0.9571428571428571,
+    "accepted_before_stop": 11.8,
+    "stopped": 1.0,
+    "certificate_end": 0.9219803249498806
+   },
+   "rho=0.2": {
+    "accepted_after": 7.2,
+    "violations_after": 7.0,
+    "viol_rate_after": 0.7894736842105263,
+    "accepted_before_stop": 7.2,
+    "stopped": 1.0,
+    "certificate_end": 0.5144308109218626
+   }
+  },
+  "n_queries": 400,
+  "n_after": 200
+ },
+ "ochre": {
+  "prefetch_tau10": {
+   "fullsim_prefetch_speedup": 1.8813003942714517,
+   "twindb_prefetch_speedup": 4.126462050983697
+  },
+  "prefetch_tau30": {
+   "fullsim_prefetch_speedup": 23.54118124544474,
+   "twindb_prefetch_speedup": 36.062609890879294
+  },
+  "prefetch_tau60": {
+   "fullsim_prefetch_speedup": 6404060657978.058,
+   "twindb_prefetch_speedup": 3351.4926545916505
+  },
+  "bootstrap": {
+   "speedup_ci": [
+    1.6730544991063783,
+    4.478349421452872
+   ],
+   "viol_ci": [
+    0.014801587301587303,
+    0.10503701182676761
+   ]
+  },
+  "injected": {
+   "rho=0": {
+    "accepted_after": 15.0,
+    "violations_after": 15.0,
+    "viol_rate_after": 1.0,
+    "accepted_before_stop": 10.0,
+    "stopped": 1.0,
+    "certificate_end": 1.0
+   },
+   "rho=0.05": {
+    "accepted_after": 9.6,
+    "violations_after": 9.6,
+    "viol_rate_after": 0.8,
+    "accepted_before_stop": 8.0,
+    "stopped": 1.0,
+    "certificate_end": 1.0
+   },
+   "rho=0.1": {
+    "accepted_after": 10.2,
+    "violations_after": 10.2,
+    "viol_rate_after": 1.0,
+    "accepted_before_stop": 9.8,
+    "stopped": 1.0,
+    "certificate_end": 1.0
+   },
+   "rho=0.2": {
+    "accepted_after": 8.8,
+    "violations_after": 8.8,
+    "viol_rate_after": 1.0,
+    "accepted_before_stop": 8.8,
+    "stopped": 1.0,
+    "certificate_end": 0.8578756506654168
+   }
+  },
+  "n_queries": 300,
+  "n_after": 150
+ }
+}
